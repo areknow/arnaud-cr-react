@@ -1,7 +1,7 @@
 import Data from "../../data/resume.json";
 import Link from "next/link";
-import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import styles from "./style.module.scss";
+import Icon from "@material-ui/core/Icon";
 
 export const Resume = () => {
   return (
@@ -14,9 +14,7 @@ export const Resume = () => {
               <Link href={href}>
                 <a target="_blank">
                   <span>{text}</span>
-                  <div className={styles.icons}>
-                    <KeyboardArrowRightIcon />
-                  </div>
+                  <Icon className={styles.icons}>keyboard_arrow_right</Icon>
                 </a>
               </Link>
             </div>

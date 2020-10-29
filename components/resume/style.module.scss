@@ -18,12 +18,12 @@
       display: inline-flex;
       align-items: center;
       .icons {
-        transform: translateX(0) translateY(1px) scale(1.2);
+        transform: translateX(0.3rem) translateY(1px) scale(1.7);
         transition: transform 50ms ease-in-out;
       }
       &:hover {
         .icons {
-          transform: translateX(0.5rem) translateY(1px) scale(1.2);
+          transform: translateX(0.8rem) translateY(1px) scale(1.7);
         }
       }
     }
@@ -43,7 +43,7 @@
   .section {
     div {
       a {
-        .icons {
+        .icons span {
           display: none;
         }
       }
