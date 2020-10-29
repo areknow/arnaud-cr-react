@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Resume } from "../components/resume";
 
 const Home = () => {
   return (
@@ -6,7 +7,9 @@ const Home = () => {
       <Head>
         <title>x</title>
       </Head>
-      <main>x</main>
+      <main>
+        <Resume></Resume>
+      </main>
     </>
   );
 };
