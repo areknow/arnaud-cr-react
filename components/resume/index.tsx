@@ -5,7 +5,6 @@ import Icon from "@material-ui/core/Icon";
 import { format } from "date-fns";
 
 export const Resume = () => {
-  console.log(Data);
   return (
     <>
       {Data.resume.map(({ text, links, footer }, i) => (
