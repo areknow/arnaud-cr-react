@@ -8,6 +8,7 @@ const Home = () => {
       <Head>
         <title>{Data.title}</title>
         <meta name="author" content="Arnaud P. Crowther" />
+        <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
       </Head>
       <main>
         <Resume></Resume>
