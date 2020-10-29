@@ -36,6 +36,18 @@
     &:last-child {
       padding: 30px 5%;
     }
+    div {
+      a {
+        .icons {
+          transform: translateX(0) translateY(1px) scale(1.2);
+        }
+        &:hover {
+          .icons {
+            transform: translateX(0.3rem) translateY(1px) scale(1.2);
+          }
+        }
+      }
+    }
   }
 }
 
