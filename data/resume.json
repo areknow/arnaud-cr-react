@@ -8,12 +8,14 @@
     {
       "text": null,
       "links": [
-        { "text": "now: design ops engineer @ datadog", "href": "//datadoghq.com/" },
-        { "text": "now: president @ miniml llc", "href": "http://miniml.co" }
+        {
+          "text": "now: design ops engineer @ datadog",
+          "href": "//datadoghq.com/"
+        }
       ]
     },
     {
-      "text": "prev: guardian consultant, full-stack, sys admin",
+      "text": "prev: guardian consultant, full-stack engineer, sys admin",
       "links": null
     },
     {
